@@ -1,0 +1,116 @@
+.header{
+    background: url(../img/header/header__back.png) no-repeat;
+    min-height: 670px;
+    position: relative;
+    background-size: cover;
+}
+.header::after{
+    content: "";
+    background-image: -moz-linear-gradient( 0deg, rgb(9,5,47) 0%, rgb(49,29,94) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(9,5,47) 0%, rgb(49,29,94) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(9,5,47) 0%, rgb(49,29,94) 100%);
+    opacity: 0.851;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+}
+.header__navbar{
+    display: flex;
+}
+.navbar__logo{
+    display: flex;
+    width: 34.375%;
+    margin-right: 60px;
+    align-items: center;
+}
+.navbar__logo-pic{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.navbar__logo-title{
+    color: #22a0ab;
+    font-family: "Roboto Thin";
+    font-size: 30px;
+
+}
+.navbar__navigation{
+    width: 59.375%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar__list{
+    display: flex;
+}
+.navbar__item{
+    margin-left: 25px;
+}
+.navbar__item-link{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto Black";
+    font-size: 13px;
+}
+.navbar__item-link_active{
+    color: #00e0d0;
+}
+.header__main{
+    margin-top: 165px;
+}
+.header__main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__content-title{
+    color: white;
+    font-size: 32px;
+    font-family: "Playfair Display";
+    margin-bottom: 25px;
+}
+.main__content-border{
+    width: 50px;
+    border-bottom: 1px solid #00e0d0;
+    margin-bottom: 30px;
+}
+.main__content-desk{
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto light";
+    margin-bottom: 50px;
+    text-align: center;
+}
+.main__content-link{
+    border: 1px solid #00e0d0;
+    border-radius: 2px;
+    color: #00e0d0;
+    font-size: 16px;
+    font-family: "Roboto";
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 125px;
+}
+.main__circle-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle__list-item{
+    margin-left: 5px;
+}
+.circle__list-link{
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: block;   
+}
+.circle__list-link_active{
+    background: #00e0d0;
+}

@@ -1,0 +1,47 @@
+@import url(base.css);
+@import url(header.css);
+@import url(about.css);
+
+
+
+
+
+
+
+
+
+
+@font-face{
+    font-family: "Roboto bold";
+    src: url(../fonts/Roboto-Bold_1.ttf) format(ttf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: "Roboto light";
+    src: url(../fonts/Roboto-Light_1.ttf) format(ttf);
+    font-weight: lighter;
+}
+@font-face{
+    font-family: "Roboto italic";
+    src: url(../fonts/Roboto-LightItalic_1.ttf) format(ttf);
+}
+@font-face{
+    font-family: "Roboto Thin";
+    src: url(../fonts/Roboto-thin.ttf) format(ttf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Roboto Black";
+    src: url(../fonts/Roboto-black.ttf) format(ttf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Playfair Display";
+    src: url(../fonts/playfair-display-black_[allfont.ru].ttf) format(ttf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Playfair";
+    src: url(../fonts/playfair-display-bold_[allfont.ru].ttf) format(ttf);
+    font-weight: normal;
+}
